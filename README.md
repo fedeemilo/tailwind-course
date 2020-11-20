@@ -10,6 +10,7 @@
   npx tailwindcss init
 ```
 ### Inject Tailwind's base, components, and utilities styles:
+#### **`./css/style.css`**
 ```css
   @tailwind base;
   @tailwind components;
