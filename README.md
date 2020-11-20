@@ -7,5 +7,16 @@
 
 ### Create tailwind config file
 ```
-npx tailwindcss init
+  npx tailwindcss init
+```
+### Inject Tailwind's base, components, and utilities styles:
+```css
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+```
+
+### Command to build tailwind style.css file
+```
+  npx tailwindcss build ./css/style.css -o ./css/dist.css
 ```
